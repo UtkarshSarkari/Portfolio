@@ -43,7 +43,7 @@ export default function Home() {
         <div className="flex items-center pt-12 justify-between">
           {
             src.map((src) => (
-              <div className="p-1 cursor-pointer">
+              <div className="p-1 cursor-pointer rounded-full">
                 <Image key={src} alt="image" height={23} width={23} src={src} />
               </div>
             ))
