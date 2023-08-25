@@ -40,6 +40,9 @@ const config: Config = {
         '1.5xl': '21px',
         '2.5xl': '29px'
       },
+      height:{
+        'h-90': '90vh'
+      },
     },
   },
   plugins: [],
