@@ -7,7 +7,7 @@ export default function Home() {
     <div className="w-screen h-screen flex items-center justify-center">
       <div className="w-3/4">
 
-        <span className="text-2.5xl xs:text-5xl sm:text-9xl font-mainFont font-semibold my-2 block mt-5">Utkarsh Sarkari.</span>
+        <span className="text-2.5xl xs:text-5xl sm:text-6xl font-mainFont font-semibold my-2 block mt-5">Utkarsh Sarkari.</span>
 
         <p className="text-1.5xl xs:text-2xl sm:text-3xl text-gray-400 font-semibold my-2 xs:my-3">Converting Thoughts into Code <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6 inline-block">
           <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />

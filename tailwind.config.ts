@@ -28,7 +28,7 @@ const config: Config = {
       screens: {
         'max-xs': '320px',
         'xs': '375px',
-        'sm': '425px',
+        'sm': '420px',
         'md': '768px',
         'lg': '1024px',
         'xl': '1280px',
