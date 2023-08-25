@@ -7,9 +7,9 @@ export default function Home() {
     <div className="w-screen h-screen flex items-center justify-center">
       <div className="w-3/4">
 
-        <span className="text-2.5xl xs:text-5xl sm:text-6xl font-mainFont font-semibold my-2 block">Utkarsh Sarkari.</span>
+        <span className="text-2.5xl xs:text-5xl sm:text-6xl font-mainFont font-semibold my-2 block mt-5">Utkarsh Sarkari.</span>
 
-        <p className="text-1.5xl xs:text-2xl text-gray-400 font-semibold my-2 xs:my-3">Converting Thoughts into Code <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6 inline-block">
+        <p className="text-1.5xl xs:text-2xl sm:text-3xl text-gray-400 font-semibold my-2 xs:my-3">Converting Thoughts into Code <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6 inline-block">
           <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
         </svg>
         </p>
@@ -19,7 +19,7 @@ export default function Home() {
 
         <div className="flex flex-wrap items-center">
 
-          <Link href="#" className="text-sm  rounded-md px-[2px] py-[2px] bg-gradient-to-r from-emerald-500 to-blue-500 font-semibold  hover:scale-[1.02] my-4">
+          <Link href="#" className="text-sm sm:text-[15px]  rounded-md px-[2px] py-[2px] bg-gradient-to-r from-emerald-500 to-blue-500 font-semibold  hover:scale-[1.02] my-4">
 
             <div className="bg-black rounded-md px-5 py-2 hover:bg-gradient-to-r hover:from-emerald-500 hover:to-blue-500 flex items-center justify-between">
               Download Resume
@@ -29,7 +29,7 @@ export default function Home() {
             </div>
           </Link>
 
-          <Link href="#" className="text-sm  rounded-md px-[2px] py-[2px] bg-gradient-to-r from-emerald-500 to-blue-500 font-semibold  hover:scale-[1.02]">
+          <Link href="#" className="text-sm sm:text-[15px]  rounded-md px-[2px] py-[2px] bg-gradient-to-r from-emerald-500 to-blue-500 font-semibold  hover:scale-[1.02]">
 
             <div className="bg-black rounded-md px-5 py-2 hover:bg-gradient-to-r hover:from-emerald-500 hover:to-blue-500 flex items-center justify-between">
               Contact Me
@@ -44,7 +44,7 @@ export default function Home() {
           {
             src.map((src) => (
               <div className="p-1 cursor-pointer">
-                <Image key={src} alt="image" height={20} width={20} src={src} />
+                <Image key={src} alt="image" height={23} width={23} src={src} />
               </div>
             ))
           }
