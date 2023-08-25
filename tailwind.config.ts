@@ -36,6 +36,7 @@ const config: Config = {
         'max-xl': '2560px'
       },
       fontSize: {
+        'xl': '16px',
         '1.5xl': '21px',
         '2.5xl': '29px'
       },
