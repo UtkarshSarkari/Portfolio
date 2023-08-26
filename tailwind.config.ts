@@ -27,10 +27,10 @@ const config: Config = {
       },
       screens: {
         'max-xs': '320px',
-        'xs': '375px',
+        'xs': '370px',
         'sm': '420px',
-        'md': '768px',
-        'lg': '1024px',
+        'md': '765px',
+        'lg': '1020px',
         'xl': '1280px',
         '2xl': '1440px',
         'max-xl': '2560px'
