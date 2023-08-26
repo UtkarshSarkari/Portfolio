@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   const src = ["/assets/linkedin.png", "/assets/github.png", "/assets/coding.png", "/assets/instagram.png", "/assets/twitter.png"];
   return (
-    <div className="w-screen h-full flex items-center justify-center">
+    <div className="w-screen my-20 h-auto flex items-center justify-center">
       <div className="w-3/4">
 
         <span className="text-2.5xl xs:text-5xl sm:text-6xl font-mainFont font-semibold my-2 block mt-5">Utkarsh Sarkari.</span>

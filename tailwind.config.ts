@@ -43,6 +43,9 @@ const config: Config = {
       height:{
         'h-90': '90vh'
       },
+      gridTemplateRows: {
+        'skill-rows': 'repeat(14, minmax(0, 1fr))'
+      }
     },
   },
   plugins: [],

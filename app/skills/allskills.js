@@ -1,10 +1,6 @@
 export const allskills = [
     {
-        name: "C",
-        category: "Languages"
-    },
-    {
-        name: "C++",
+        name: "C++/C",
         category: "Languages"
     },
     {
@@ -37,10 +33,6 @@ export const allskills = [
     },
     {
         name: "Tailwind CSS",
-        category: "Frontend"
-    },
-    {
-        name: "DOM Manipulation",
         category: "Frontend"
     },
     {
