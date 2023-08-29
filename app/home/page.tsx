@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   const src = ["/assets/linkedin.png", "/assets/github.png", "/assets/coding.png", "/assets/instagram.png", "/assets/twitter.png"];
   return (
-    <div className="w-screen my-20 h-auto flex items-center justify-center">
+    <div className="w-screen my-16 h-auto flex items-center justify-center">
       <div className="w-3/4">
 
         <span className="text-2.5xl xs:text-5xl sm:text-6xl font-mainFont font-semibold my-2 block mt-5">Utkarsh Sarkari.</span>
@@ -40,11 +40,11 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className="flex items-center pt-12 justify-between">
+        <div className="flex items-center pt-8 justify-between">
           {
             src.map((src) => (
-              <div className="p-1 mt-1 cursor-pointer rounded-full">
-                <Image key={src} className="sm:h-6 sm:w-6" alt="image" height={20}  width={20} src={src} />
+              <div className="p-1 mt-1 cursor-pointer">
+                <Image key={src} className="sm:h-6 sm:w-6" alt="image" height={15}  width={15} src={src} />
               </div>
             ))
           }

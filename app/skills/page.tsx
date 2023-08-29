@@ -1,10 +1,15 @@
+'use client'
 import React from 'react'
 import { allskills } from "./allskills";
+import Image from 'next/image';
 
 export default function Skills() {
     const skillCategory = ["Languages", "Frontend", "Backend", "Others"];
+    const handleClick = (selectedSkills: string) => {
+        console.log('abc', selectedSkills);
+    }
     return (
-        <div className='flex flex-col justify-around w-[80%] mx-auto h-auto font-mainFont mb-20'>
+        <div className='flex flex-col justify-around w-[80%] mx-auto h-auto font-mainFont mb-20 mt-24'>
 
             <span className="text-1.5xl sm:text-2xl mb-6 flex items-center font-semibold">
                 Skills
@@ -25,19 +30,20 @@ export default function Skills() {
             </span>
 
             <div className=" flex flex-wrap mb-6">
-                {skillCategory.map((skill) => (
-                    <div className='text-sm sm:text-xl  rounded-md px-[1px] py-[1px] bg-gradient-to-r from-emerald-500 to-cyan-600 hover:scale-[1.02] mr-3 my-2 sm:mr-4'>
-                        <span className="bg-black rounded-md px-5 py-2 sm:px-6 hover:bg-gradient-to-r hover:text-black hover:font-medium hover:from-emerald-500 hover:to-cyan-600 flex items-center justify-between">
-                            {skill}
-                        </span>
+                {skillCategory.map((category) => (
+                    <div key={category} className="flex flex-wrap items-center text-zinc-300">
+                        <span className='bg-zinc-800 cursor-pointer select-none rounded-lg px-8 py-2 mr-3.5 my-1.5'>{category}</span>
                     </div>
                 ))}
             </div>
 
-            <div className="grid grid-rows-skill-rows gap-y-px grid-cols-2 mb-6 sm:gap-y-3">
+            <div className="grid grid-rows-skill-rows gap-y-px grid-cols-2 mb-6 sm:gap-y-2">
                 {
                     allskills.map((skill) => (
-                        <span className="text-gray-400">{skill.name}</span>
+                        <div key={skill.name} className="flex items-center">
+                            <Image src={skill.imgUrl} height={20} width={20} alt='iconImg' className='mr-2' />
+                            <span className="text-gray-400 text-sm sm:text-xl flex items-center">{skill.name}</span>
+                        </div>
                     ))
                 }
             </div>
