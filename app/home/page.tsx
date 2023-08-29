@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
-  const src = ["/assets/linkedin.png", "/assets/github.png", "/assets/coding.png", "/assets/instagram.png", "/assets/twitter.png"];
+  const src = ["/assets/linkedin.png", "/assets/githubmain.png", "/assets/coding.png", "/assets/instagram.png", "/assets/twitter.png"];
   return (
     <div className="w-screen my-16 h-auto flex items-center justify-center">
       <div className="w-3/4">
